@@ -70,10 +70,9 @@ var riveted = (function() {
       }
 
 
-      $(element).on('click', trigger); //jquery
+      $(document).on('keydown click mousemove scroll', trigger); //jquery
 
       //addListener(document, 'click', trigger);
-      // 'keydown click mousemove scroll'
       addListener(document, 'visibilitychange', visibilityChange);
       addListener(document, 'webkitvisibilitychange', visibilityChange);
     }
