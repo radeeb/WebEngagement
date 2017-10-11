@@ -70,7 +70,7 @@ var riveted = (function() {
       }
 
 
-      $(document).on('click', trigger); //jquery
+      $(element).on('click', trigger); //jquery
 
       //addListener(document, 'click', trigger);
       // 'keydown click mousemove scroll'
